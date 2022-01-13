@@ -84,6 +84,7 @@
     position: relative;
     font-size: 16px;
     cursor: pointer;
+    margin: 22px;
 }
 
 .main-btn:hover{
@@ -91,12 +92,55 @@
     background:#f44336;
     transition: 0.5s;
 }
+.main-app{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(Images/2.png);
+}
+
+.nav-apps{
+    flex: 1;
+    text-align: right;
+}
 
 
+.nav-apps ul li{
+    list-style: none;
+   display: inline-table;
+    padding: 8px 12px;
+   position: relative;
+   
+ 
+   
+}
 
+.nav-apps ul li a{
+  position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  
+  display: block;
+}
 
+.nav-apps ul li::after{
+    content: '';
+       background: #f44336;
+    display: block;
+    height: 2px;
+    margin: auto;
+    width: 50%;
+  transition: 1s;
+   
+}
 
-
+.nav-apps ul li:hover::after{
+   width: 100%;
+    
+}
 
 
 
