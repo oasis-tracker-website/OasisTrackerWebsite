@@ -12,6 +12,7 @@
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(Images/Minecraft_1_12_2022_8_21_58_AM.png);
 }
+
 .nav{
     display: flex;
     padding: 2% 6%;
@@ -98,10 +99,9 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(Images/Minecraft_1_12_2022_8_21_58_AM.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(Images/2.png);
+
 }
-
-
 
 .nav-apps{
     flex: 1;
@@ -141,24 +141,146 @@
 }
 
 
+.header-members{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(https://cdn.nethergames.org/img/forums/backstretch/bg11.png);
+}
+
+
+    .nav-mem{
+        flex: 1;
+        text-align: right;
+    }
+    
+    
+    .nav-mem ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+       position: relative;
+       
+    
+    }
+    
+    .nav-mem ul li a{
+      position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .nav-mem ul li::after{
+        content: '';
+           background: #f44336;
+        height: 2px;
+        margin: auto;
+        display: block;
+        width: 50%;
+      transition: 1s;
+       
+    }
+    
+    .nav-mem ul li:hover::after{
+       width: 100%; 
+    }
+
+
+
+.guildapply-btn{
+    position: absolute;
+    width: 90%;
+    top: 32%;
+   left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+}
+
+
+
+.guildapplyform-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 8px solid #f44336;
+   padding: 20px 40px;
+    background: transparent;
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 22px;
+    
+}
 
 
 
 
+.guildapplyform-btn:hover{
+    border: 8px solid #fff;
+    background:#f44336;
+    transition: 0.5s;
+}
+
+.staffapply-btn{
+    position: absolute;
+    width: 90%;
+    top: 52%;
+   left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+}
+
+.staffapplyform-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 8px solid #f44336;
+   padding: 20px 40px;
+    background: transparent;
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 22px;
+    
+}
+
+.staffapplyform-btn:hover{
+    border: 8px solid #fff;
+    background:#f44336;
+    transition: 0.5s;
+}
 
 
+.miscapply-btn{
+    position: absolute;
+    width: 90%;
+    top: 72%;
+   left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+}
 
+.miscapplyform-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 8px solid #f44336;
+   padding: 20px 40px;
+    background: transparent;
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 22px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.miscapplyform-btn:hover{
+    border: 8px solid #fff;
+    background:#f44336;
+    transition: 0.5s;
+}
 
 
 
