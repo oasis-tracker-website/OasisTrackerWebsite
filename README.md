@@ -1,2 +1,0 @@
-# OasisTrackerWebsite
-Releasing Soon :smir
