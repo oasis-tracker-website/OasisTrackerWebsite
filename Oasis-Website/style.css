@@ -40,6 +40,8 @@ nav{
     transform: translateX(-50%);
 z-index: 99%;
 padding: 16px 32px;
+
+
 }
 
 nav h1{
@@ -51,6 +53,9 @@ nav h1{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+  
+
 
 .container{
     height: 200px;
@@ -527,7 +532,7 @@ h2{
     }
     
     .nav__item--extra {
-
+    
     }
     
     .footer__addr {
@@ -538,3 +543,212 @@ h2{
       flex: 2 0px;
     }
   }
+
+
+
+  /*AppPAGE*/
+
+
+  .apptxt{
+    position: absolute;
+    top: 25%;
+    left: 530px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    background-color: #A0BDF1;
+    padding: 8px 16px;
+    border-radius: 8px;
+  box-shadow: #212121 0px 0px 8px;
+
+  }
+
+  .apptxt h1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 900;
+    text-shadow: #212121 0px 0px 0px;
+  }
+
+  /*guildapp*/
+
+  .guildmemapp{
+    justify-content: space-between;
+    flex: 25%;
+    position: absolute;
+  }
+
+  .guildmemapp h2{
+    top: 290px;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #A0BDF1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+  text-shadow: 1px 0px 2px #fff8;
+  }
+
+  .guildmemapp p{
+    position: relative;
+    top: 315px;
+    left: 125px;
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-shadow: aquamarine 1px 1px 2px ;
+  }
+
+  .guildmemapp a{
+    position: relative;
+    top: 420px;
+    left: 240px;
+    text-decoration: none;
+    font-size: 36px;
+    color: wheat;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: unset;
+    filter: blur(0.2px);
+    background: #A0BDF1;
+    border-radius: 6px;
+    text-shadow: #212121 2px 1px 4px;
+    padding: 8px 16px;
+    outline: #000000 1px;
+    transition: 0.7s;
+    box-shadow: #dddddd 2px 1px 2px;
+    }
+    .guildmemapp a:hover{
+        background: #212121;
+        color: gold;
+    }
+    
+    .guildappbg {
+        background-color:#fff;
+        width: 25%;
+        height: 300px;
+        position: absolute;
+        top: 40%;
+        left: 125px;
+        border-radius: 6px;
+        box-shadow: #212121 0px 0px 10px;
+        transition: 0.4s;
+    }
+    .guildappbg:hover {
+        transform: scale(1.02);
+    }
+    
+    .guildappbg h4{
+        color: #fff;
+      
+    }
+    
+    .guildreq  {
+        font-size: 20px;
+        position: absolute;
+        top: 63%;
+        left: 210px;
+        
+        color:#A0BDF1;}
+        
+
+        /*staffapp*/
+
+        staffapp{
+          flex: 40%;
+          justify-content: space-between;
+      }
+      
+      .staffapp h2{
+          position: absolute;
+          top: 38%;
+          left: 650px;
+          color: #A0BDF1;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 24px;
+          text-shadow: #fff8 3px 0px 4px;
+      }
+      
+      .staffapp p{
+          color: #212121;
+          font-size: 19px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-weight: 600;
+          text-shadow: #fff9 1px 1px 2px ;
+          position: absolute;
+          top:45%;
+          left: 990px;
+      }
+      
+      .staffa {
+          text-decoration: none;
+          position: absolute;
+          top: 70%;
+          left: 1080px;
+          font-size: 36px;
+      color: wheat;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-style: unset;
+      filter: blur(0.2px);
+      background: #A0BDF1;
+      border-radius: 6px;
+      text-shadow: #212121 2px 1px 4px;
+      padding: 8px 16px;
+      outline: #000000 1px;
+      transition: 0.7s;
+      box-shadow: #fff8 1px 1px 2px;
+      }
+      
+      
+      .staffa:hover{
+          color: gold;
+          background: #323232;
+      }
+      
+      
+      
+      
+      .staffappbg{
+          background-color: #fff;
+          position: absolute;
+          top: 40%;
+          left: 67%;
+          width: 25%;
+          height: 300px;
+          border-radius: 6px;
+          box-shadow: #212121 0px 0px 10px;
+          transition: 0.4s;
+      }
+      
+      .staffappbg h4{
+          color: #fff;
+      }
+      .staffappbg:hover {
+          transform: scale(1.02);
+      }
+
+      .reqq-st{
+        position: absolute;
+        top: 63%;
+        left: 1060px;
+        color: #A0BDF1;
+      }
+
+      .notest{
+        position: absolute;
+        top: 190%;
+        left: 310px;
+      }
+
+      .notest p{
+        font-size: 22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #fff;
+
+      }
+
+      .notedisc{
+        color: #fff;
+      }
+    
