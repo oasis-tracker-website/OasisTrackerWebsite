@@ -280,6 +280,25 @@ xhr.onload = function () {
 }
 
 xhr.send()
+
+document.getElementById("members").value = json.members;
+document.getElementById("officers").value = json.officers;
+document.getElementById("leader").value = json.leader;
 </script>
+<div class="header-stats">
+  <input class="stat text-center statistic" readonly id="members" name="members"></input> 
+  <p>Members</p>
+  <br>
+  <div class="header-stats">
+    <input class="stat text-center statistic" readonly id="officers" name="officers"></input> 
+    <p>Officers</p>
+  <br>
+  <div class="header-stats">
+    <input class="stat text-center statistic" readonly id="leader" name="leader"></input> 
+    <p>Leader</p>
+  <br>
+</div>
+
     </body>
 </html>
+
